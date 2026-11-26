@@ -1,7 +1,7 @@
 # Tetris Autoplayer
 I built a Python autoplayer for a coursework version of Tetris. The coursework starter code provides the game engine and interfaces. My contribution is the autoplayer logic in player.py.
 
-**How it works:**
+**How the autoplayer chooses its moves:**
 - **Right side well**: The autoplayer tries to keep the rightmost column clear for a vertical I-piece. This lets it clear four rows at once when the rest of those rows are filled. In this version, a four-line clear earns 1,600 points, compared with 25 for a single line, so the autoplayer weights a 4 row clear much more highly.
 - **Weighted heuristics**: Possible moves are scored based on the scoring function, which rewards points gained and penalises the number of holes, aggregate and maximum height, bumpiness and blocks added to the well. 
 - **Two piece lookahead**: The autoplayer simulates rotations and drops on copies of the board by creating a sandbox clone of the board. It uses depth-first search to evaluate placements for the current piece and the next piece when available.
