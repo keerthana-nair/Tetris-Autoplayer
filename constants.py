@@ -1,0 +1,12 @@
+import random
+BOARD_HEIGHT = 24
+BOARD_WIDTH = 10
+
+DEFAULT_SEED = random.randrange(10**9)#42
+print(DEFAULT_SEED)
+
+BLOCK_LIMIT = 400
+
+INTERVAL = 1000
+
+PREFIX = '<TETRIS WIRE PROTOCOL>'
