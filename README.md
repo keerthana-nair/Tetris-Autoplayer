@@ -12,6 +12,7 @@ The autoplayer uses Python 3 and the supplied coursework game files. The autopla
 
 Place player.py in the coursework game directory, open a terminal there, and run:
 *python visual.py*
+
 To play manually in the same interface, run:
 *python visual.py -m*
 
