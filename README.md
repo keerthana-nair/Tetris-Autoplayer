@@ -8,6 +8,7 @@ I built a Python autoplayer for a coursework version of Tetris. The coursework s
 - **Special features**: This version of Tetris varies from the original due to the addition of a limited number of discards and bombs. The autoplayer uses board evaluations to decide when those actions could improve its position, and can discard a piece to try for an I-piece when enough rows are ready.
 
 **Running the autoplayer:**
+
 The autoplayer uses Python 3 and the supplied coursework game files. The autoplayer is implemented in player.py and uses the coursework board engine in board.py.
 
 Place player.py in the coursework game directory, open a terminal there, and run:
